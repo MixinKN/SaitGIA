@@ -4,8 +4,8 @@ import {FiSearch} from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
 import {MENU_DATA} from "@/types/menu";
 import Link from "next/link";
-import Image from "next/image";
 import Logo from "../../../public/logo.png"
+import Image from "next/image";
 
 const Header = () => {
     return (
@@ -15,7 +15,7 @@ const Header = () => {
                     <div className="flex justify-between items-center">
                         <div className="flex gap-x-[25px]">
                             <div className="bg-background size-[100px]"></div>
-                            <Image className="absolute left-[256px] -top-[20px]" src={Logo} alt={"logo"} />
+                            <img className="absolute left-[256px] -top-[20px]" src="/logo.png" alt={"logo"} />
                             <span className="text-[#59C0D1] leading-[52px] font-medium text-[48px]">ПОДГОТОВЬСЯ К ЭКЗАМЕНАМ ЗАРАНЕЕ С НАМИ</span>
                         </div>
                         <div className="flex pb-5 gap-x-[72px]">
