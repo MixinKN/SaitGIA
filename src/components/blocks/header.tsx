@@ -15,7 +15,7 @@ const Header = () => {
                     <div className="flex justify-between items-center">
                         <div className="flex gap-x-[25px]">
                             <div className="bg-background size-[100px]"></div>
-                            <img className="absolute left-[256px] -top-[20px]" src="/logo.png" alt={"logo"} />
+                            <img className="absolute left-[256px] -top-[20px]" src="./logo.png" alt={"logo"} />
                             <span className="text-[#59C0D1] leading-[52px] font-medium text-[48px]">ПОДГОТОВЬСЯ К ЭКЗАМЕНАМ ЗАРАНЕЕ С НАМИ</span>
                         </div>
                         <div className="flex pb-5 gap-x-[72px]">

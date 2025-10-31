@@ -16,7 +16,7 @@ const Catalog = () => {
               Каталог курсов для подготовки к ЕГЭ
             </Heading>
           </div>
-          <div className="bg-[url(/catalogBg.png)] h-[860px] rounded-[20px]">
+          <div className="bg-[url(./catalogBg.png)] h-[860px] rounded-[20px]">
             <div className="flex flex-col gap-y-[80px] pl-[20px] pr-[20px] pt-[30px] pb-[30px]">
               <div className="flex justify-between">
                 {CATALOG_MENU_1.map((item) => (

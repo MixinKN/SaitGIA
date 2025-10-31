@@ -22,7 +22,7 @@ const BANNER_POINTS = [
 export function Bunner() {
   return (
     <section id="bunner-section" className="max-w-[1440px] px-5 mx-auto mt-[120px] mb-[120px]">
-      <div className="bg-[url(/banner-bg.png)] px-[100px] py-[12px] rounded-[20px]">
+      <div className="bg-[url(./banner-bg.png)] px-[100px] py-[12px] rounded-[20px]">
         <Heading variant="2xl" className="text-[#4A7B84]">
           Годовые курсы подготовки к ЕГЭ на 25/26 учебный год
         </Heading>
